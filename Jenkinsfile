@@ -6,7 +6,7 @@ pipeline {
                 script {
                     
                     echo "************** show file content *******************"
-                    echo bat(returnStdout: true, script: 'C:\\Program Files\\Git\\mingw64\\etc> && dir')
+                    echo bat(returnStdout: true, script: 'C:\\Program Files\\Git\\mingw64\\etc && dir')
                     
                     
                 }
